@@ -21,7 +21,8 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://improve-my-city-frontend-r5qi.vercel.app"
   ],
   credentials: true,
 }));
